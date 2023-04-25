@@ -1,0 +1,31 @@
+package kgh;
+
+import java.util.Scanner;
+
+public class MIan {
+
+	public static void main(String[] args) {
+		// 구구단 만들기
+		Scanner scan = new Scanner(System.in);
+		System.out.println("몇단 볼래?");   //4
+		
+		int 몇단 = scan.nextInt();
+		
+		System.out.println("몇까지 고팔래?");
+		int 고팔수 = scan.nextInt();   //3
+		
+		for(int j=2; j<=몇단; j++) {
+			for(int i=1; i<=고팔수; i++) {
+				System.out.println(j+"*"+i+"="+(j*i));
+				
+				
+				
+			}
+			
+		}
+		
+		
+		
+	}
+
+}
