@@ -1,0 +1,59 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOo6wWe7yS0bYNANvhw586q"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9vz8Ycd-Y6yk",
+        "outputId": "8ea11377-2a57-4c2b-8ef3-b0a797e7c9b8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "           @\n",
+            "           *\n",
+            "          ***\n",
+            "         *****\n",
+            "        *******\n",
+            "       *********\n",
+            "      ***********\n",
+            "     *************\n",
+            "    ***************\n",
+            "   *****************\n",
+            "  *******************\n",
+            " *********************\n",
+            "***********************\n",
+            "          lll\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\" \"*11+(\"@\"))\n",
+        "\n",
+        "for i in range(1, 12*2, 2) :\n",
+        "  print((\" \"*((12*2-1-i)//2))+(\"*\"*i))\n",
+        "print(\" \"*10+(\"lll\"))"
+      ]
+    }
+  ]
+}
