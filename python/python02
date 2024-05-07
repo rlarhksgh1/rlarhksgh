@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNVzvYNONakruIUwJVagD+9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rlarhksgh1/rlarhksgh/blob/main/Untitled6.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"숫자 입력 : \"))\n",
+        "b = input(\"연산자 입력 : \")\n",
+        "c = int(input(\"숫자 입력 : \"))\n",
+        "\n",
+        "\n",
+        "if b==\"+\" :\n",
+        "    print(a,\"+\",c,a+c)\n",
+        "elif b==\"-\" :\n",
+        "    print(a,\"-\",c,a-c)\n",
+        "elif b==\"*\" :\n",
+        "    print(a,\"*\",c,a*c)\n",
+        "elif b==\"/\" :\n",
+        "   print(a,\"/\",c,a/c)\n",
+        "elif b==\"**\" :\n",
+        "  print(a,\"**\",c,a**c)\n",
+        "elif b==\"%\" :\n",
+        "  print(a,\"%\",c,a%c)\n",
+        "elif b==\"//\" :\n",
+        "  print(a,\"//\",c,a//c)\n",
+        "else :\n",
+        "  print('연산자 입력 오류!!')"
+      ],
+      "metadata": {
+        "id": "VWhD04afIXuA"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
